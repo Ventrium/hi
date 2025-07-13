@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hi</title><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;font-family:'Orbitron',sans-serif;background:radial-gradient(circle,#0f0c29,#302b63,#24243e);background-size:200% 200%;animation:a 20s linear infinite;overflow:hidden}
+@keyframes a{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
+.b{position:relative;padding:100px;background:rgba(255,255,255,.02);backdrop-filter:blur(20px);border-radius:30px;box-shadow:0 0 50px #0ff2,0 0 80px #f02;text-align:center;transform:perspective(900px) rotateX(8deg);animation:b 4s ease-in-out infinite alternate}
+@keyframes b{0%{transform:perspective(900px) rotateX(6deg) scale(1)}100%{transform:perspective(900px) rotateX(10deg) scale(1.02)}}
+h1{font-size:8rem;color:#fff;letter-spacing:.25em;text-shadow:0 0 10px #fff4,0 0 20px #f0f6,0 0 40px #0ff8,0 0 80px #f077,0 0 120px #ff06;animation:c 6s ease-in-out infinite,d 3s infinite}
+@keyframes c{0%,100%{text-shadow:0 0 5px #fff2,0 0 10px #f0f4,0 0 30px #0f6}50%{text-shadow:0 0 20px #fff,0 0 40px #f0f,0 0 80px #0ff}}
+@keyframes d{0%{transform:scale(1)}50%{transform:scale(1.03)}100%{transform:scale(1)}}
+.e{position:absolute;width:100px;height:100px;background:radial-gradient(circle,rgba(255,255,255,.5),transparent 70%);border-radius:50%;animation:e 12s linear infinite alternate;filter:blur(30px)}
+@keyframes e{0%{top:-30px;left:-30px}50%{top:50%;left:50%}100%{top:90%;left:90%}}
+.f{position:absolute;top:0;left:-150%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.3),transparent);animation:f 5s infinite;pointer-events:none}
+@keyframes f{0%{transform:translateX(0)}100%{transform:translateX(200%)}}
+.g{position:absolute;top:50%;left:50%;width:300px;height:300px;border:3px dashed #fff3;border-radius:50%;animation:g 10s linear infinite;transform:translate(-50%,-50%)}
+@keyframes g{from{transform:translate(-50%,-50%) rotate(0)}to{transform:translate(-50%,-50%) rotate(360deg)}}
+.h{position:absolute;width:100%;height:100%;overflow:hidden;pointer-events:none}
+.h span{position:absolute;width:6px;height:6px;background:rgba(255,255,255,.1);border-radius:50%;animation:h 10s linear infinite}
+@keyframes h{0%{transform:translateY(100vh) scale(.5);opacity:0}100%{transform:translateY(-10vh) scale(1.2);opacity:1}}
+</style></head><body>
+<div class="h">
+<span style="left:5%;animation-delay:0s"></span>
+<span style="left:10%;animation-delay:1s"></span>
+<span style="left:20%;animation-delay:2s"></span>
+<span style="left:30%;animation-delay:3s"></span>
+<span style="left:40%;animation-delay:4s"></span>
+<span style="left:50%;animation-delay:5s"></span>
+<span style="left:60%;animation-delay:6s"></span>
+<span style="left:70%;animation-delay:7s"></span>
+<span style="left:80%;animation-delay:8s"></span>
+<span style="left:90%;animation-delay:9s"></span>
+</div>
+<div class="b">
+<div class="g"></div>
+<div class="e"></div>
+<div class="f"></div>
+<h1>Hi</h1>
+</div>
+</body></html>
