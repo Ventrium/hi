@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-<title>YouTube Frame Player (Mobile Friendly)</title>
+<title>YT FBF</title>
 <style>
   body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin: 14px; color:#111; background:#fff; }
   #player { width:100%; aspect-ratio:16/9; background:#000; border-radius:8px; margin-bottom:12px; }
@@ -21,7 +21,7 @@
 </style>
 </head>
 <body>
-  <h2>🎞️ YouTube Frame-by-Frame Player (Mobile)</h2>
+  <h2>YouTube Frame-by-Frame Player</h2>
 
   <div class="row">
     <input id="videoInput" type="text" placeholder="YouTube URL or ID" />
@@ -49,10 +49,6 @@
     <div class="small">Duration: <span id="durationDisplay">—</span> s • State: <span id="stateDisplay">—</span></div>
   </div>
 
-  <div class="footer">
-    ⚠️ Mobile browsers limit frame-accurate seeking in YouTube videos.  
-    You can still step frame-by-frame, but precision may vary depending on the device and connection.
-  </div>
 
 <script>
   // Parse YouTube video ID
